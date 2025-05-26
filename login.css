@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30,#243b55);
+}
+.logo{
+  
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: Arial;
+    font-size: 40px;
+    color: white;
+}
+
+.login-box{
+    font-size: 30px;
+    position: absolute;
+    top: 22vh;
+    left: 35vw;
+    height: 400px;
+    width: 450px;
+    padding: 40px;
+    transform: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 3px rgba(11, 12, 12, 0.6);
+    border-radius: 10px;
+}
+
+.login-box h3{
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+.login-box .user-box input:focus~label,.login-box .user-box input:valid~label{
+    top:-20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+.login-box form a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #20d5de;
+    margin-top: 40px;
+    margin-left: 140px;
+    padding: 15px;
+    font-size: 18px;;
+}
+ .login a {
+    position: absolute;
+    display: block;
+    
+ }
+ .login-box a:hover{
+background: #03e8f4c0;
+color: white;
+border-radius: 2px;
+ }
+ .reg p {
+    display: inline-block; 
+    margin: 0; 
+    color: white;
+    font-size: 13px;
+    margin-left: 95px;
+    padding: 12px;
+    
+}
+
+.reg a {
+    color: #03e9f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reg a:hover {
+    text-decoration: underline;
+}
